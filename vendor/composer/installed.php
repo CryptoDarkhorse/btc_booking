@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '99d1e8692b58ada575e97a8c5aaa32016a604d73',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '99d1e8692b58ada575e97a8c5aaa32016a604d73',
+            'dev_requirement' => false,
+        ),
+        'bitwasp/bitcoin-lib' => array(
+            'pretty_version' => 'v1.0.4',
+            'version' => '1.0.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bitwasp/bitcoin-lib',
+            'aliases' => array(),
+            'reference' => '2fa3fd3ab9d3d474c3c65426f6c550c581ab9f15',
+            'dev_requirement' => false,
+        ),
+        'mdanter/ecc' => array(
+            'pretty_version' => '0.2.0',
+            'version' => '0.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mdanter/ecc',
+            'aliases' => array(),
+            'reference' => 'ca9d127114e087bdeac24ada488631f18ae80d3f',
+            'dev_requirement' => false,
+        ),
+    ),
+);
